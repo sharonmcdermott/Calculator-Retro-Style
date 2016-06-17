@@ -12,6 +12,7 @@
 		806E1EE81D12CAA900B5E4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806E1EE61D12CAA900B5E4D4 /* Main.storyboard */; };
 		806E1EEA1D12CAA900B5E4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806E1EE91D12CAA900B5E4D4 /* Assets.xcassets */; };
 		806E1EED1D12CAA900B5E4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806E1EEB1D12CAA900B5E4D4 /* LaunchScreen.storyboard */; };
+		806E1EF51D12E8F800B5E4D4 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806E1EF41D12E8F800B5E4D4 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		806E1EE91D12CAA900B5E4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806E1EEC1D12CAA900B5E4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		806E1EEE1D12CAA900B5E4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806E1EF41D12E8F800B5E4D4 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		806E1EE11D12CAA900B5E4D4 /* Calculator-Retro Style */ = {
 			isa = PBXGroup;
 			children = (
+				806E1EF41D12E8F800B5E4D4 /* btn.wav */,
 				806E1EE21D12CAA900B5E4D4 /* AppDelegate.swift */,
 				806E1EE41D12CAA900B5E4D4 /* ViewController.swift */,
 				806E1EE61D12CAA900B5E4D4 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 				806E1EED1D12CAA900B5E4D4 /* LaunchScreen.storyboard in Resources */,
 				806E1EEA1D12CAA900B5E4D4 /* Assets.xcassets in Resources */,
 				806E1EE81D12CAA900B5E4D4 /* Main.storyboard in Resources */,
+				806E1EF51D12E8F800B5E4D4 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sharonmcdermott.Calculator-Retro-Style";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -264,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sharonmcdermott.Calculator-Retro-Style";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -286,6 +292,7 @@
 				806E1EF31D12CAA900B5E4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
