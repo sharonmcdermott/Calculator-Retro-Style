@@ -79,6 +79,11 @@ class ViewController: UIViewController {
         processOperation(currentOperation)
     }
     
+    @IBAction func onClearPressed(sender: AnyObject) {
+        processOperation(currentOperation)
+    }
+    
+    
     
     func processOperation(op: Operation) {
         //playSound()
@@ -99,6 +104,12 @@ class ViewController: UIViewController {
                     result = "\(Double(leftValStr)! - Double(rightValStr)!)"
                 } else if currentOperation == Operation.Add {
                     result = "\(Double(leftValStr)! + Double(rightValStr)!)"
+//                } else if currentOperation == Operation.Clear {
+//                    leftValStr = 0
+//                    rightValStr = 0
+//                    result = "(\Double(leftValStr)! + Double(rightValStr)!)*0"
+//                    runningNumber = ""
+//                    currentOperation = op
                 }
                 
                 leftValStr = result
@@ -113,13 +124,6 @@ class ViewController: UIViewController {
                 runningNumber = ""
                 currentOperation = op
             }
-        
-        //} else if currentOperation == Operation.Clear {
-        //leftValStr = 0
-        //rightValStr = 0
-        //result = "(\Double(leftValStr)! + Double(rightValStr)!)*0"
-        //runningNumber = ""
-        //currentOperation = op
         
     }
     func playSound() {
