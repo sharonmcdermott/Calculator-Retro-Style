@@ -113,6 +113,14 @@ class ViewController: UIViewController {
                 runningNumber = ""
                 currentOperation = op
             }
+        
+        //} else if currentOperation == Operation.Clear {
+        //leftValStr = 0
+        //rightValStr = 0
+        //result = "(\Double(leftValStr)! + Double(rightValStr)!)*0"
+        //runningNumber = ""
+        //currentOperation = op
+        
     }
     func playSound() {
         if btnSound.playing {
